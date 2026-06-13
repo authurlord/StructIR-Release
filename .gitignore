@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+*.log
+*.pid
+.env
+*.key
+*.secret
+models/
+*.npy
+*.pt
+results/*/raw*/
+*.egg-info/

@@ -1,0 +1,14 @@
+{
+  "ottqa": {
+    "n": 1690,
+    "EM": 47.63,
+    "F1": 52.57,
+    "reader_errors": 0
+  },
+  "nqtables": {
+    "n": 1067,
+    "EM": 51.36,
+    "F1": 64.1,
+    "reader_errors": 0
+  }
+}

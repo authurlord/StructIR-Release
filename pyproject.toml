@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "structir"
+version = "0.2.0"
+description = "StructIR — source-adaptive table retrieval skill for LLM data agents (fit/retrieve/as_tool over heterogeneous table data lakes)"
+requires-python = ">=3.10"
+dependencies = ["rank_bm25", "numpy"]
+
+[project.optional-dependencies]
+gpu = ["sentence-transformers", "torch"]
+agent = ["openai", "httpx"]
+
+[tool.setuptools]
+packages = ["structir_skill", "structir_agent", "structir_gnn"]
+package-dir = {"" = "src"}

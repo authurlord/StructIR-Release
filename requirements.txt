@@ -1,0 +1,8 @@
+rank_bm25
+numpy
+# optional GPU stack for the dense leg + cross-encoder reranker:
+# sentence-transformers
+# torch
+# optional agent framework (online LLM via OpenAI-compatible API):
+# openai
+# httpx

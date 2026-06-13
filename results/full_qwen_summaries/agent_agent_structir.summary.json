@@ -1,0 +1,47 @@
+{
+  "ottqa": {
+    "n": 1690,
+    "Hit@5": 79.17,
+    "R@5": 79.17,
+    "top1_acc": 65.38,
+    "routing_acc": 59.68,
+    "avg_tool_calls": 1.841,
+    "reformulated_final_rate": 0.542
+  },
+  "nqtables": {
+    "n": 1067,
+    "Hit@5": 86.97,
+    "R@5": 86.97,
+    "top1_acc": 60.17,
+    "routing_acc": 87.72,
+    "avg_tool_calls": 1.348,
+    "reformulated_final_rate": 0.052
+  },
+  "aitqa": {
+    "n": 515,
+    "Hit@5": 60.0,
+    "R@5": 38.99,
+    "top1_acc": 32.23,
+    "routing_acc": 69.32,
+    "avg_tool_calls": 1.482,
+    "reformulated_final_rate": 0.167
+  },
+  "multihiertt": {
+    "n": 929,
+    "Hit@5": 69.43,
+    "R@5": 64.64,
+    "top1_acc": 41.77,
+    "routing_acc": 78.79,
+    "avg_tool_calls": 1.893,
+    "reformulated_final_rate": 0.265
+  },
+  "micro": {
+    "n": 4201,
+    "Hit@5": 76.65,
+    "R@5": 73.01,
+    "top1_acc": 54.77,
+    "routing_acc": 72.21,
+    "avg_tool_calls": 1.683,
+    "reformulated_final_rate": 0.31
+  }
+}
